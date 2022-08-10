@@ -23,3 +23,11 @@ $ sudo /usr/sbin/td-agent-gem install fluent-plugin-kinesis
 ```
 /var/log/td-agent 
 ```
+
+## install the java 
+
+```
+sudo amazon-linux-extras install java-openjdk11 -y
+```
+
+sysctl -w vm.max_map_count=262144
